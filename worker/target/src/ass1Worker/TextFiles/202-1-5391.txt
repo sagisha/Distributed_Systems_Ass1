@@ -1,0 +1,153 @@
+ 
+ 1 
+ גוריון בנגב-אוניברסיטת בן
+ המחלקה למדעי המחשב -הפקולטה למדעי הטבע 
+ ד"ע' תשבסמסטר 
+ 
+ 
+ סילבוס קורס
+ 
+ 
+ תכנות מערכות מבוזרות :   שם הקורס
+ 
+ 
+ שם הקורס
+ :   באנגלית
+Distributed System Programming: Scale Out with 
+Cloud Computing and Map-Reduce 
+ 
+ 
+ 202-1-1931 :    מס' קורס
+ 
+ קורס בחירה :    סוג קורס
+ 
+                                             :נק"ז
+ 
+0.0
+ מנחם אדלרד"ר  :מרצה הקורס
+ 
+ אוטומטים ושפות פורמאליות 202-1-2011 דרישות קדם 
+ תכנות מערכות 202-1-2091
+ 
+ 
+ 
+ באנגליתסילבוס 
+ 
+Modern Web-scale applications (e.g., Facebook, Twitter, Google Docs) must face technical 
+challenges that derive from their scale: 
+ Scalability: the possibility to grow as the user-base and data-size handled by the 
+application grows to hundreds of millions of users and petabytes of data. 
+ High-Availability: the capacity to provide service to users even when part of the 
+infrastructure (CPUs, Networks, Disks) become unaccessible in an intermittent or 
+permanent manner. 
+ 
+The way to address these requirements is to develop loosely distributed applications that can 
+operate in a "cloud-like" runtime environment. This course introduces basic theory behind such 
+massively distributed applications and modern programming tools that constitute an emerging 
+infrastructure for distributed applications, as well as algorithm design in this environment, 
+demonstrated by several classic problems in the field of natural language processing. 
+ 
+ 
+ 
+ 
+ 2 
+ מטרת ונושא הקורס
+ 
+מבוזר של נתונים,  גדול והמבוססות על מאגר  ,-Facebook, Twitter, Google Docsדוגמת  -אפליקציות מודרניות 
+ :. ובפרטחייבות להתמודד עם אתגרים טכניים שונים
+  :בגידול מתמיד של משתמשים )מאות מיליונים( ונתונים ) עמידההסתלמותpeta-bytes.במערכת ) 
+ ים, רשת, כוננים( אינו זמין. זמינות גבוהה: יכולת מתן שירותים למשתמשים, גם כאשר חלק מהתשתית )מעבד 
+ 
+ הרצים במקביל תחת 'ענן' ,תהליכים , הכוללת מספר רב שללעצב אפליקציה מבוזרת נדרש ,כדי להתמודד עם דרישות אלו
+ .הממלאים יחדיו את המשימה העומדת בבסיס האפליקציה, ויחידות חישוב שונות של
+ :ומבוזר אוסף נתונים גדוללעיבוד מבוזרות מערכות יצוב ען לימוד התשתית התאורטית והמעשית של מטרת הקורס הינ
+ מבוזרים ומאגרי נתונים ן של יחידות חישובעבודה מול ענ -
+ הכרות עם אלגוריתמים קלאסיים של אחזור מידע, ובפרט map-reduceאלגוריתמים מבוזרים בתבנית  עיצוב -
+ .ועיבוד טקסט
+ Hadoopמימוש מערכות מבוזרות לעיבוד טקסט בסביבת ההרצה  -
+ 
+ 
+ 
+ נושאי ההרצאות 
+ 
+ . מבוא1
+ הצורך במערכות מבוזרות -
+ תכונות של מערכות מבוזרות -
+ cloudsארכיטקטורת  -
+ מערכת קבצים מבוזרת -
+ 
+ Hadoopסביבת ההרצה . 2
+ Hadoopסביבת ההרצה  ה שלארכיטקטורה -
+ map/reduceתבנית  -
+ Hadoopבסביבת ההרצה  map-reduceתכנות בתבנית  -
+ לסביבה הקיימת cachingספת שכבת הו -
+ 
+ עיצוב אלגוריתמים מבוזרים. 3
+ Local aggregation,Order inversion, Secondary sorting ,Relational joinsטכניקות יסוד:  -
+ עיבוד טקסט -
+ מודל שפה 
+ חלקי דיבר תיוג 
+o מודל מרקוב מבוזר 
+o מונחה של תנאי התחלה-לימוד לא 
+ ניתוח תחבירי 
+o ,מבנה תלויות מבנה פסוקיות 
+o בעיית הניתוח התחבירי 
+o אלגוריתם כבעיית סייוג, גרסה מקבילית של  לימוד מונחה של מבנה תלויותperceptorn 
+ סיווג טקסטים 
+o עיצוב מבוזר בתבנית, map-reduce  , שלk-means 
+o  עיצוב מבוזר, בתבניתmap-reduce של ,LDA 
+ עיבוד מבוזר של גרף -
+  ןנתו לקדקודמציאת המסלול הקצר 
+  קביעתpage rank לדפים ברשת 
+ 
+ 
+ 3 
+  map-reduce. תאוריית 4
+  אופטימיזציית פעולתjoin  בסביבתmap-reduce 
+  חסמים עליונים ותחתונים לחישובmap-reduce 
+ 
+ דרישות הקורס
+ 
+ cloudהתנסות מודרכת ועצמאית בבניית תשתית ושימוש בשרותי 
+ תרגילי תכנות שני
+ פרויקט סופי
+ 
+ 
+ מרכיבי ציון הקורס
+ 
+ 50%תרגילים: 
+ 50%סופי:  פרויקט
+ 
+ 
+ ספרות הקורס 
+ 
+ 
+ 
+Chuck Lam, Hadoop in Action, Manning Publications, Nov 2010. 
+ 
+Jimmy Lin and Chris Dyer, Data-Intensive Text Processing with MapReduce, Morgan and Claypool Publishers, 
+April 2010. 
+ 
+Moshe Levinger, Uzi Ornan, and Alon Itai. Learning morpholexical probabilities from an untagged corpus with 
+an application to Hebrew. Computational 
+Linguistics, 2001, 21:383–404. 
+ 
+Yoav Goldberg, Meni Adler and Michael Elhadad, EM Can Find Pretty Good HMM POS-Taggers (When Given 
+a Good Start), ACL 2008. 
+ 
+Ryan McDonald, Keith Hall and Gideon Mann, Distributed Training Strategies for the Structured Perceptron, 
+NAACL, 2010 
+ 
+Lawrence Page, Sergey Brin, Rajeev Motwani, and Terry Winograd, The Page-Rank citation ranking: Bringing 
+order to the Web, Stanford Digital Library Working Paper SIDL-WP-1999-0120, Stanford University, 1999. 
+ 
+Amy N. Langville, Carl Dean Meyer, Google page rank and beyond, Princeton University Press, 2006. 
+ 
+Ke Zhai, Jordan Boyd-Graber, Nima Asadi, and Mohamad Alkhouja. Mr. LDA: A Flexible Large Scale 
+Topic Modeling Package using Variational Inference in MapReduce. ACM International Conference on 
+World Wide Web, 2012. 
+ 
+F. N. Afrati and J. D. Ulman, Optimizing joins in a map-reduce environment, EDBT, March, 2010. 
+ 
+Foto N. Afrati, Anish Das Sarma, Semih Salihoglu and Jeffrey D. Ullman, Upper and Lower Bounds on the 
+Cost of a Map-Reduce Computation (submitted, 2012). 
